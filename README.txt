@@ -1,4 +1,6 @@
-                TASK 1
+                    TASK 1
+
+The following lines in their respective question have errors.
 
 Q-1 printf(" Enter a number" 4589);
 
@@ -19,7 +21,6 @@ Q-7 cin>>code_chef.my_variable;
     class test{ 
         int my_variable; 
     } 
-
 
 Q-8 sum=+i; 
 
@@ -44,3 +45,8 @@ Q-10    *include <string.h>
         while(t+-){
 
         if(s[i]===s[i+1])
+
+
+                    Task 2
+
+Q-1 
