@@ -53,6 +53,36 @@ The codes for the respective questions are below.
 
 Q-1 
 
+#include <iostream>
+#include <string.h>
+using namespace std;
+int main()
+{
+    int i, j, count;
+    char str[25][25], temp[25];
+    cout << "Enter the no. of strings" << endl;
+    cin >> count;
+
+    cout << "Enter the strings" << endl;
+    for (i = 0; i < count; i++)
+        cin >> str[i];
+    for (i = 0; i < count; i++)
+        for (j = i + 1; j < count; j++)
+        {
+            if (strcmp(str[i], str[j]) > 0)
+            {
+                strcpy(temp, str[i]);
+                strcpy(str[i], str[j]);
+                strcpy(str[j], temp);
+            }
+        }
+    cout << "Sorted Strings" << endl;
+    for (i = 0; i < count; i++)
+        cout << str[i] << endl;
+
+    return 0;
+}
+
 Q-2 
 
 #include <iostream>
