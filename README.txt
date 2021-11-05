@@ -14,7 +14,7 @@ Q-5 cout>>"*";
 
 Q-6 z=int(“Enter a number:”) 
 
-    print(“They are equal”);
+    prnt(“They are equal');
 
 Q-7 cin>>code_chef.my_variable; 
 
