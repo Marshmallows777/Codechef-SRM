@@ -6,7 +6,7 @@ Q-1 printf(" Enter a number" 4589);
 
 Q-2 if(arr[i]%value == 0)
 
-Q-3 for(int i=1;i <= 4;i--) 
+Q-3 for(int i=1;i <= 4;j--) 
 
 Q-4 a>10?printf("Yes");:printf("No"); 
 
