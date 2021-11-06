@@ -90,7 +90,7 @@ using namespace std;
 
 int main()
 {
-    int size;
+    int size,flag=0;
     cin >> size;
     int arr[size];
 
@@ -115,9 +115,17 @@ int main()
             }
         }
     }
-
-    cout << arr[key - 1];
-
+    for (i = 2; i <= arr[key - 1] / 2; i++)
+    {
+       if (arr[key - 1] % i == 0) 
+       {
+          flag = 1;
+          break;
+       }
+    }
+    if (flag == 0)
+      cout << arr[key - 1];
+      
     return 0;
 }
 
