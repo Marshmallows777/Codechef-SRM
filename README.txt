@@ -176,7 +176,7 @@ int main()
     int firstNum = temp2 / (int(ceil(pow(10, count))));
 
     if (firstNum + lastNum == input)
-        cout << "Chef's Number";
+        cout << "Chef Number";
     else
-        cout << "Not Chef's Number";
+        cout << "Not Chef Number";
 }
